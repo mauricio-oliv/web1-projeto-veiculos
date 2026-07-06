@@ -1,0 +1,39 @@
+/* Reset básico para evitar inconsistências */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estruturação das 4 partes obrigatórias */
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex: 1; /* Força o main a ocupar o espaço restante da tela */
+    padding: 20px;
+}
