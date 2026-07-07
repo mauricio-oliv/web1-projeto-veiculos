@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Veículos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Portal de Veículos</h1>
+    </header>
+
+    <nav>
+        <a href="home_interna.html">Home Interna</a>
+        <a href="novo_anuncio.html">Novo Anúncio</a>
+        <a href="meus_anuncios.html">Meus Anúncios</a>
+        <a href="index.html">Sair</a>
+    </nav>
+
+    <main>
+        <section class="formulario">
+            <h2>Criar Anúncio</h2>
+            <form action="#" method="POST">
+                <label>Marca:</label> <input type="text" name="marca" required>
+                <label>Modelo:</label> <input type="text" name="modelo" required>
+                <label>Ano:</label> <input type="number" name="ano" required>
+                <label>Cor:</label> <input type="text" name="cor" required>
+                <label>Quilometragem:</label> <input type="number" name="quilometragem" required>
+                <label>Valor:</label> <input type="text" name="valor" required>
+                <label>Estado:</label> <input type="text" name="estado" required>
+                <label>Cidade:</label> <input type="text" name="cidade" required>
+                <label>Descrição:</label> <textarea name="descricao" required></textarea>
+                <label>Fotos (mínimo 3):</label> <input type="file" name="fotos" multiple required>
+                
+                <button type="submit">Salvar Anúncio</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Portal de Veículos</p>
+        <p>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="CSS válido!" />
+            </a>
+        </p>
+    </footer>
+</body>
+</html>

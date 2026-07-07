@@ -3,25 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nome do Portal</title>
+    <title>Portal de Veículos</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>Logotipo / Nome do Portal</h1>
+        <h1>Portal de Veículos</h1>
     </header>
 
     <nav>
         <a href="index.html">Home</a>
-        <a href="login.html">Login</a>
         <a href="cadastro.html">Cadastro</a>
+        <a href="login.html">Login</a>
     </nav>
 
     <main>
-        </main>
+        <div class="busca">
+            <select name="marca"><option>Marca</option></select>
+            <select name="modelo"><option>Modelo</option></select>
+            <select name="cidade"><option>Cidade</option></select>
+            <button>Buscar</button>
+        </div>
+
+        <div class="anuncios">
+            <article class="card">
+                <img src="img/carro-placeholder.jpg" alt="Foto do carro">
+                <h2>Marca - Modelo</h2>
+                <p>Ano: 2020</p>
+                <p>Cidade: Uberlândia</p>
+                <p class="preco">R$ 50.000,00</p>
+                <a href="detalhes.html">Ver Detalhes</a>
+            </article>
+            <article class="card">
+                <img src="img/carro-placeholder.jpg" alt="Foto do carro">
+                <h2>Marca - Modelo</h2>
+                <p>Ano: 2020</p>
+                <p>Cidade: Uberlândia</p>
+                <p class="preco">R$ 50.000,00</p>
+                <a href="detalhes.html">Ver Detalhes</a>
+            </article>
+            <article class="card">
+                <img src="img/carro-placeholder.jpg" alt="Foto do carro">
+                <h2>Marca - Modelo</h2>
+                <p>Ano: 2020</p>
+                <p>Cidade: Uberlândia</p>
+                <p class="preco">R$ 50.000,00</p>
+                <a href="detalhes.html">Ver Detalhes</a>
+            </article>
+            <article class="card">
+                <img src="img/carro-placeholder.jpg" alt="Foto do carro">
+                <h2>Marca - Modelo</h2>
+                <p>Ano: 2020</p>
+                <p>Cidade: Uberlândia</p>
+                <p class="preco">R$ 50.000,00</p>
+                <a href="detalhes.html">Ver Detalhes</a>
+            </article>
+            <article class="card">
+                <img src="img/carro-placeholder.jpg" alt="Foto do carro">
+                <h2>Marca - Modelo</h2>
+                <p>Ano: 2020</p>
+                <p>Cidade: Uberlândia</p>
+                <p class="preco">R$ 50.000,00</p>
+                <a href="detalhes.html">Ver Detalhes</a>
+            </article>
+        </div>
+    </main>
 
     <footer>
-        <p>&copy; 2026 Nome do Portal. Todos os direitos reservados.</p>
+        <p>&copy; 2026 Portal de Veículos</p>
+        <p>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="CSS válido!" />
+            </a>
+        </p>
     </footer>
 </body>
 </html>
