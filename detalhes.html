@@ -3,48 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal de Veículos</title>
+    <title>MotorWeb | Classificados</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>Portal de Veículos</h1>
+        <h1>MotorWeb</h1>
     </header>
 
     <nav>
         <a href="index.html">Home</a>
-        <a href="cadastro.html">Cadastro</a>
         <a href="login.html">Login</a>
+        <a href="cadastro.html">Cadastro</a>
     </nav>
 
     <main>
-        <section class="detalhes-veiculo">
-            <h2>Marca - Modelo (2020)</h2>
-            <img src="https://placehold.co/400x250?text=Foto+do+Veiculo" alt="Foto do veículo" style="max-width: 400px;">
-            <p><strong>Cidade:</strong> Uberlândia</p>
-            <p><strong>Preço:</strong> R$ 50.000,00</p>
-            <p><strong>Descrição:</strong> Veículo em ótimo estado de conservação.</p>
-        </section>
+        <div style="display: flex; gap: 40px; justify-content: center; flex-wrap: wrap; align-items: flex-start; margin-top: 20px;">
+            
+            <div class="detalhes-veiculo" style="text-align: center; max-width: 400px;">
+                <h2>Volkswagen - Gol (2018)</h2>
+                <img src="https://placehold.co/400x300?text=VW+Gol" alt="Foto do veículo" style="width: 100%; border-radius: 8px; margin: 15px 0;">
+                <p><strong>Cidade:</strong> Araguari</p>
+                <p><strong>Preço:</strong> R$ 38.000,00</p>
+                <p style="margin-top: 15px; text-align: justify;"><strong>Descrição:</strong> Veículo em ótimo estado de conservação, único dono, documentação em dia.</p>
+            </div>
 
-        <section class="formulario">
-            <h3>Tenho Interesse</h3>
-            <form action="#" method="POST">
-                <label>Nome:</label>
-                <input type="text" name="nome" required>
-                
-                <label>Telefone:</label>
-                <input type="tel" name="telefone" required>
-                
-                <label>Mensagem:</label>
-                <textarea name="mensagem" required></textarea>
-                
-                <button type="submit">Enviar Mensagem</button>
-            </form>
-        </section>
+            <div class="formulario" style="margin: 0; min-width: 300px;">
+                <h3 style="text-align: center; margin-bottom: 15px;">Tenho Interesse</h3>
+                <form action="#" method="POST">
+                    <label>Nome:</label>
+                    <input type="text" name="nome" required>
+                    
+                    <label>Telefone:</label>
+                    <input type="tel" name="telefone" required>
+                    
+                    <label>Mensagem:</label>
+                    <textarea name="mensagem" rows="4" required></textarea>
+                    
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+            </div>
+            
+        </div>
     </main>
 
     <footer>
-        <p>&copy; 2026 Portal de Veículos</p>
+        <p>&copy; 2026 MotorWeb</p>
         <p>
             <a href="https://jigsaw.w3.org/css-validator/check/referer">
                 <img style="border:0;width:88px;height:31px"
