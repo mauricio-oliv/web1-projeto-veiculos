@@ -1,4 +1,10 @@
-Gustavo Antônio Teixeira de Matos
-Mauricio Otávio Braga de Oliveira
-Joabe Guimarães Rodrigues
-Lucas Silva Figueiredo
+Nome do portal: MotorWeb
+
+URL do projeto: https://mauricio-oliv.github.io/web1-projeto-veiculos/
+
+Integrantes: Carlos Eduardo da Silva Pechiori - 12211BSI228   
+Gustavo Antônio Teixeira de Matos - 12311BSI243   
+Joabe Guimarães Rodrigues - 12311BSI311   
+Lucas Silva Figueiredo - 12311BSI223   
+Luisa Mariano Castilho - 12211BSI253   
+Mauricio Otávio Braga de Oliveira - 12311BSI228
